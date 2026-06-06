@@ -1,135 +1,79 @@
 <div align="center">
 
-<!-- HERO BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0f3460,100:16213e&height=280&section=header&text=Abinesh%20Sellappan&fontSize=52&fontColor=58a6ff&fontAlignY=40&desc=Full%20Stack%20%E2%80%A2%20ML%20Engineer%20%E2%80%A2%20Tokyo%20%F0%9F%97%BC%EF%B8%8F&descSize=18&descAlignY=58&descColor=8b949e&animation=twinkling" width="100%"/>
+<!-- ════════ SYSTEM AWAKENING BANNER ════════ -->
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:020024,40:0a043c,100:00d4ff&height=300&section=header&text=%5B%20SYSTEM%20%5D&fontSize=70&fontColor=00d4ff&fontAlignY=38&desc=PLAYER%3A%20ABINESH%20%E2%80%A2%20HAS%20BEEN%20GRANTED%20THE%20RIGHT%20TO%20LEVEL%20UP&descSize=16&descAlignY=58&descColor=8be9fd&animation=fadeIn" width="100%"/>
 
-<!-- TYPING SVG -->
-<a href="https://github.com/Abinesh012">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3500&pause=800&color=58A6FF&center=true&vCenter=true&repeat=true&width=700&height=60&lines=🚀+Building+impactful+software+from+Tokyo;🐍+Python+%7C+Full+Stack+%7C+ML+%7C+ServiceNow;🎌+学習中+%7C+Currently+learning+Japanese;💡+From+idea+to+deployment+—+end+to+end;🔍+Open+to+opportunities+in+Japan" alt="Typing SVG" />
-</a>
-
-<br/>
-
-<!-- PROFILE VIEWS + SOCIAL BADGES -->
-[![Profile Views](https://komarev.com/ghpvc/?username=Abinesh012&color=58a6ff&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/Abinesh012)
-[![GitHub followers](https://img.shields.io/github/followers/Abinesh012?style=for-the-badge&color=58a6ff&labelColor=0d1117&logo=github)](https://github.com/Abinesh012?tab=followers)
-[![Email](https://img.shields.io/badge/Gmail-abineshsellappan%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abineshsellappan@gmail.com)
+<!-- ════════ SYSTEM NOTIFICATION ════════ -->
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=24&duration=3000&pause=900&color=00D4FF&center=true&vCenter=true&repeat=true&width=800&height=70&lines=%5B+SYSTEM+%5D+You+have+awakened+as+a+Developer;%5B+ALERT+%5D+A+Full-Stack+dungeon+has+appeared;%5B+SKILL+%5D+Python+%E2%80%A2+ML+%E2%80%A2+ServiceNow+acquired;%5B+QUEST+%5D+Conquer+the+Tokyo+Tech+Gate+%F0%9F%97%BC;%5B+ARISE+%5D+The+code+obeys+your+command" alt="System Notification" />
 
 </div>
 
 ---
 
-<!-- ABOUT ME SECTION -->
-<img align="right" alt="Coding" width="380" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
+<div align="center">
 
-## 🧑‍💻 About Me
-
-```python
-#!/usr/bin/env python3
-
-class Abinesh:
-    def __init__(self):
-        self.name       = "Sellappan Abinesh"
-        self.role       = "Full Stack / ML Engineer"
-        self.location   = "Tokyo, Japan 🗼"
-        self.email      = "abineshsellappan@gmail.com"
-        self.phone      = "+81 90129 15077"
-
-    @property
-    def education(self):
-        return {
-            "degree"   : "MSc Software Systems",
-            "school"   : "Kongu Engineering College",
-            "cgpa"     : "8.1 / 10",
-            "language" : "Japanese @ Shinpo International 🇯🇵"
-        }
-
-    @property
-    def skills(self):
-        return {
-            "languages"  : ["Python", "JavaScript", "SQL"],
-            "frontend"   : ["React", "HTML", "CSS"],
-            "backend"    : ["Node.js", "ServiceNow"],
-            "databases"  : ["MongoDB", "MySQL"],
-            "ml"         : ["Keras", "TensorFlow", "VGG16"],
-            "tools"      : ["Git", "Linux", "REST APIs"]
-        }
-
-    @property
-    def currently(self):
-        return [
-            "🎌 Learning Japanese (N4 level)",
-            "🔍 Open to SWE roles in Japan",
-            "📚 Deepening ML expertise"
-        ]
-
-    def __str__(self):
-        return "Ship fast. Learn faster. Build smarter. 🚀"
-
-me = Abinesh()
-print(me)
-# Output: Ship fast. Learn faster. Build smarter. 🚀
+```
+╔═══════════════════════════════════════════════════════════════╗
+║                  ⟦ S Y S T E M   M E S S A G E ⟧                ║
+║───────────────────────────────────────────────────────────────║
+║   "You alone have the qualifications to become a Developer."    ║
+║                                                                 ║
+║         > Congratulations. You have become a Player.            ║
+║         > Class assigned:  FULL-STACK SHADOW MONARCH            ║
+║         > Press [START] to begin your re-awakening...           ║
+╚═══════════════════════════════════════════════════════════════╝
 ```
 
-<br clear="right"/>
+</div>
 
 ---
 
-## 🏢 Work Experience
+## ⟦ PLAYER STATUS WINDOW ⟧
 
 <table>
 <tr>
-<td width="50%">
+<td width="55%" valign="top">
 
-### 🔷 FirstQA Systems
-**Feb 2024 – Mar 2025 · Tokyo, Japan**
+```diff
++ ════════════════════════════════════════ +
+       [ PLAYER  INFORMATION  WINDOW ]
++ ════════════════════════════════════════ +
 
-![ServiceNow](https://img.shields.io/badge/ServiceNow-81B5A1?style=flat-square&logo=servicenow&logoColor=white)
-![Backend](https://img.shields.io/badge/Backend-Integration-58a6ff?style=flat-square)
+   NAME      : Sellappan Abinesh
+   TITLE     : The One Who Ships
+   CLASS     : Full-Stack Shadow Monarch
+   LEVEL     : 27  ▲ (XP to next: 8,100)
+   RANK      : ⬆ A-RANK → ascending to S
+   GUILD     : Solo (recruiting shadows...)
+   LOCATION  : Tokyo Dungeon, Japan 🗼
 
-- ✅ Automated business workflows using **ServiceNow**
-- ✅ Backend systems integration & practical solutions
-- ✅ Debugging, troubleshooting & cross-team collaboration
+   HP  ████████████████████░  [ ONLINE ]
+   MP  ███████████████████░░  [ CHARGED ]
+   FATIGUE  ░░░░░░░░░░░░░░░░░  [ 0 / ∞ ]
 
-</td>
-<td width="50%">
-
-### 🔷 Pinaca Technologies
-**May 2023 – Jan 2024 · India**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![ML](https://img.shields.io/badge/Machine%20Learning-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-
-- ✅ ML models for **law enforcement & defense**
-- ✅ Large dataset optimization & faster DB queries
-- ✅ Designed scalable cross-functional solutions
+   STATUS    : [ AWAKENED ]  ●live
++ ════════════════════════════════════════ +
+```
 
 </td>
-</tr>
-<tr>
-<td width="50%">
+<td width="45%" valign="top">
 
-### 🔷 Quinbay Technologies
-**Jan 2023 – Feb 2023 · India**
+```diff
++ ═══════════════════════════════ +
+        [ STAT  ALLOCATION ]
++ ═══════════════════════════════ +
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Fullstack](https://img.shields.io/badge/Full%20Stack-0d1117?style=flat-square)
+   ⚔  STRENGTH    ████████░  82
+   🛡  VITALITY    ███████░░  74
+   🏃 AGILITY     ███████░░  78
+   🧠 INTELLIGENCE████████░  88
+   ✨ SENSE       ███████░░  76
+   🍀 LUCK        █████░░░░  55
 
-- ✅ End-to-end software development workflows
-- ✅ Rapidly adapted to new tools & processes
-- ✅ Meaningful contributions to live projects
-
-</td>
-<td width="50%">
-
-### 🎓 Education
-**Kongu Engineering College | 2018–2023**
-
-![MSc](https://img.shields.io/badge/MSc-Software%20Systems-58a6ff?style=flat-square)
-![CGPA](https://img.shields.io/badge/CGPA-8.1%2F10-28a745?style=flat-square)
-
-Currently studying **Japanese Language & Culture**  
-@ Shinpo International Institute, Tokyo 🇯🇵
+   ◇ Unallocated Points: 12
+   ◇ Re-roll: developers.never.sleep
++ ═══════════════════════════════ +
+```
 
 </td>
 </tr>
@@ -137,123 +81,154 @@ Currently studying **Japanese Language & Culture**
 
 ---
 
-## 🛠️ Tech Arsenal
+## ⟦ JOB CLASS & ELEMENTAL AFFINITIES ⟧
 
 <div align="center">
 
-### 💻 Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+> *"Most players awaken with one element. The Monarch wields the full stack."*
 
-### 🚀 Frameworks & Platforms
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![ServiceNow](https://img.shields.io/badge/ServiceNow-81B5A1?style=for-the-badge&logo=servicenow&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![Python](https://img.shields.io/badge/🐍_PYTHON-Necromancy_LV.MAX-00d4ff?style=for-the-badge&labelColor=020024)
+![JavaScript](https://img.shields.io/badge/⚡_JAVASCRIPT-Lightning_LV.78-f7df1e?style=for-the-badge&labelColor=020024)
+![ML](https://img.shields.io/badge/🔮_MACHINE_LEARNING-Divination_LV.70-ff6f00?style=for-the-badge&labelColor=020024)
+![ServiceNow](https://img.shields.io/badge/🛠_SERVICENOW-Artificing_LV.82-81b5a1?style=for-the-badge&labelColor=020024)
 
-### 🗄️ Databases & Tools
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![React](https://img.shields.io/badge/React-Conjuration-00d4ff?style=for-the-badge&logo=react&logoColor=61DAFB&labelColor=020024)
+![Node](https://img.shields.io/badge/Node.js-Summoning-00d4ff?style=for-the-badge&logo=node.js&logoColor=339933&labelColor=020024)
+![MongoDB](https://img.shields.io/badge/MongoDB-Soul_Storage-00d4ff?style=for-the-badge&logo=mongodb&logoColor=47A248&labelColor=020024)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-Prophecy-00d4ff?style=for-the-badge&logo=tensorflow&logoColor=FF6F00&labelColor=020024)
+![Keras](https://img.shields.io/badge/Keras-Ritual-00d4ff?style=for-the-badge&logo=keras&logoColor=D00000&labelColor=020024)
+![Linux](https://img.shields.io/badge/Linux-Ancient_Tongue-00d4ff?style=for-the-badge&logo=linux&logoColor=FCC624&labelColor=020024)
+![Git](https://img.shields.io/badge/Git-Time_Reversal-00d4ff?style=for-the-badge&logo=git&logoColor=F05032&labelColor=020024)
 
 </div>
 
 ---
 
-## 📊 GitHub Statistics
+## ⟦ DUNGEON CLEAR LOG ⟧ — *Raid History*
 
-<div align="center">
+```ansi
+[ S-RANK GATE ]  FirstQA Systems ............... CLEARED ✓  Feb 2024 – Mar 2025
+  └─ Boss: "Manual Workflow Hydra"  →  Defeated via ServiceNow automation
+  └─ Loot acquired: Backend Integration Scroll, Debugging Mastery
+  └─ Rating: ★★★★★  (cross-functional party carry)
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Abinesh012&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true&include_all_commits=true&rank_icon=github" />
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abinesh012&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" />
+[ A-RANK GATE ]  Pinaca Technologies ........... CLEARED ✓  May 2023 – Jan 2024
+  └─ Boss: "Defense-Sector Data Leviathan"  →  Slain with ML models
+  └─ Loot acquired: Dataset Optimization Rune, Scalability Crystal
+  └─ Rating: ★★★★★  (law enforcement & defense raid)
 
-<img width="70%" src="https://streak-stats.demolab.com?user=Abinesh012&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=ff6b35&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e" />
+[ B-RANK GATE ]  Quinbay Technologies .......... CLEARED ✓  Jan 2023 – Feb 2023
+  └─ Boss: "Onboarding Golem"  →  Adapted & overcame in record time
+  └─ Loot acquired: End-to-End Workflow Tome
+  └─ Rating: ★★★★☆  (speedrun any%)
 
-</div>
+[ TRAINING ARC ] Kongu Engineering College ..... GRADUATED ✓  2018 – 2023
+  └─ MSc Software Systems  •  Final CGPA: 8.1 / 10  •  Title: "The Scholar"
+
+[ HIDDEN QUEST ] Shinpo International Institute . IN PROGRESS ◌  Apr 2025 – now
+  └─ Learning the [Ancient Language: 日本語]  •  Difficulty: NIGHTMARE
+```
 
 ---
 
-## 🏆 GitHub Trophies
+## ⟦ SHADOW ARMY ⟧ — *Repositories I Have Risen*
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=Abinesh012&theme=onestar&no-frame=true&no-bg=true&column=7&margin-w=8)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
----
-
-## 🚀 Featured Projects
-
-<div align="center">
+> **"ARISE."** — *The summoned projects answer the Monarch's call.*
 
 <a href="https://github.com/Abinesh012/Agro-Web-Vision">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Abinesh012&repo=Agro-Web-Vision&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Abinesh012&repo=Agro-Web-Vision&theme=midnight-purple&hide_border=true&bg_color=020024&title_color=00d4ff&icon_color=00d4ff&text_color=8be9fd" />
 </a>
 <a href="https://github.com/Abinesh012/Hostel-Management-System">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Abinesh012&repo=Hostel-Management-System&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Abinesh012&repo=Hostel-Management-System&theme=midnight-purple&hide_border=true&bg_color=020024&title_color=00d4ff&icon_color=00d4ff&text_color=8be9fd" />
 </a>
 <a href="https://github.com/Abinesh012/Transfer-Learning-Keras">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Abinesh012&repo=Transfer-Learning-Keras&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Abinesh012&repo=Transfer-Learning-Keras&theme=midnight-purple&hide_border=true&bg_color=020024&title_color=00d4ff&icon_color=00d4ff&text_color=8be9fd" />
 </a>
 <a href="https://github.com/Abinesh012/simple-reactjs-app">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Abinesh012&repo=simple-reactjs-app&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Abinesh012&repo=simple-reactjs-app&theme=midnight-purple&hide_border=true&bg_color=020024&title_color=00d4ff&icon_color=00d4ff&text_color=8be9fd" />
 </a>
 
 </div>
 
 ---
 
-## 📈 Contribution Graph
+## ⟦ MONARCH'S POWER METRICS ⟧
 
 <div align="center">
 
-[![Abinesh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Abinesh012&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ff6b35&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Abinesh012&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=020024&title_color=00d4ff&icon_color=00d4ff&text_color=8be9fd&count_private=true&include_all_commits=true&rank_icon=github" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abinesh012&layout=compact&theme=midnight-purple&hide_border=true&bg_color=020024&title_color=00d4ff&text_color=8be9fd&langs_count=8" />
+
+<img width="80%" src="https://streak-stats.demolab.com?user=Abinesh012&theme=midnight-purple&hide_border=true&background=020024&ring=00d4ff&fire=00d4ff&currStreakLabel=00d4ff&sideLabels=8be9fd&dates=8be9fd&stroke=00d4ff" />
 
 </div>
 
 ---
 
-## 🎯 Skills Proficiency
+## ⟦ ACHIEVEMENT TROPHIES ⟧
+
+<div align="center">
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=Abinesh012&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+---
+
+## ⟦ MANA FLOW ⟧ — *Contribution Aura*
+
+<div align="center">
+
+[![activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Abinesh012&bg_color=020024&color=00d4ff&line=00d4ff&point=8be9fd&area=true&hide_border=true&custom_title=Mana%20Output%20Over%20Time)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+</div>
+
+---
+
+## ⟦ SKILL TREE ⟧
 
 ```
-Python            ████████████████████░░░   85%
-JavaScript        ███████████████████░░░░   78%
-Machine Learning  ████████████████░░░░░░░   70%
-ServiceNow        ████████████████████░░░   82%
-MongoDB           ████████████████░░░░░░░   68%
-React             ████████████████░░░░░░░   65%
-Japanese (日本語)  ████████░░░░░░░░░░░░░░░   35% (actively studying! 📚)
+                          [ FULL-STACK SHADOW MONARCH ]
+                                       │
+        ┌──────────────────┬──────────┴──────────┬──────────────────┐
+        ▼                  ▼                     ▼                  ▼
+   ◆ BACKEND          ◆ FRONTEND           ◆ DATA / ML         ◆ AUTOMATION
+   ├─ Python ●        ├─ React ●           ├─ TensorFlow ●     ├─ ServiceNow ●
+   ├─ Node.js ●       ├─ JavaScript ●      ├─ Keras ●          ├─ Workflow Eng ●
+   ├─ REST APIs ●     ├─ HTML/CSS ●        ├─ VGG16 / CNN ●    └─ Integrations ●
+   └─ MongoDB ●       └─ UI/UX ◐           └─ Dataset Opt ●
+
+   ● Unlocked   ◐ Leveling   ○ Locked            > Next unlock: [日本語 N4]
 ```
 
 ---
 
-## 🌏 Let's Connect
-
 <div align="center">
 
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abineshsellappan@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abinesh012)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abinesh-sellappan)
-[![Phone](https://img.shields.io/badge/Call%20Me-+81%2090129%2015077-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:+819012915077)
-[![Location](https://img.shields.io/badge/Tokyo%2C%20Japan-FF0000?style=for-the-badge&logo=google-maps&logoColor=white)](https://maps.google.com/?q=Ojima,Tokyo,Japan)
+## ⟦ SUMMON THE MONARCH ⟧
+
+[![Gmail](https://img.shields.io/badge/📡_HAIL_VIA_MAIL-020024?style=for-the-badge&logo=gmail&logoColor=00d4ff)](mailto:abineshsellappan@gmail.com)
+[![GitHub](https://img.shields.io/badge/⬛_GITHUB_GATE-020024?style=for-the-badge&logo=github&logoColor=00d4ff)](https://github.com/Abinesh012)
+[![LinkedIn](https://img.shields.io/badge/🔗_GUILD_NETWORK-020024?style=for-the-badge&logo=linkedin&logoColor=00d4ff)](https://linkedin.com/in/abinesh-sellappan)
+[![Location](https://img.shields.io/badge/🗼_TOKYO_DUNGEON-020024?style=for-the-badge&logo=googlemaps&logoColor=00d4ff)](https://maps.google.com/?q=Tokyo,Japan)
 
 <br/>
 
-> *"The best code is the one that solves real problems — efficiently, elegantly, and at scale."*  
-> — **Abinesh Sellappan**
+![Profile Views](https://komarev.com/ghpvc/?username=Abinesh012&color=00d4ff&style=for-the-badge&label=PLAYERS+WHO+ENTERED+THE+GATE)
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,50:0f3460,100:0d1117&height=150&section=footer&text=Thanks%20for%20visiting!%20⭐&fontSize=28&fontColor=58a6ff&fontAlignY=65" width="100%"/>
+```
+╔═══════════════════════════════════════════════════════════════╗
+║   [ SYSTEM ]  The Player has not yet reached their limit.       ║
+║              Daily Quest: Write code. Clear gates. Level up.    ║
+║                                                                 ║
+║                        — ARISE. —                              ║
+╚═══════════════════════════════════════════════════════════════╝
+```
+
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:00d4ff,60:0a043c,100:020024&height=180&section=footer&text=%E2%9F%A6%20I%20ALONE%20LEVEL%20UP%20%E2%9F%A7&fontSize=30&fontColor=00d4ff&fontAlignY=68&animation=twinkling" width="100%"/>
 
 </div>
