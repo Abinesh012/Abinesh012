@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="360" viewBox="0 0 380 360" font-family="'Segoe UI','Courier New',monospace">
+  <defs>
+    <radialGradient id="hg" cx="50%" cy="46%" r="55%">
+      <stop offset="0%" stop-color="#7b5cff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <text x="190" y="26" text-anchor="middle" fill="#00d4ff" font-size="15" font-weight="bold" letter-spacing="3">⟦ STAT MATRIX ⟧</text>
+
+  <!-- center reference at 190,196 ; outer R=120 -->
+  <circle cx="190" cy="196" r="130" fill="url(#hg)"><animate attributeName="opacity" values="0.6;1;0.6" dur="4s" repeatCount="indefinite"/></circle>
+
+  <!-- grid rings (scaled copies of outer hexagon, scaled about center 190,196) -->
+  <g fill="none" stroke="#1d3a66" stroke-width="1">
+    <polygon points="190,76 293.9,136 293.9,256 190,316 86.1,256 86.1,136"/>
+    <g transform="translate(47.5 49) scale(0.75)"><polygon points="190,76 293.9,136 293.9,256 190,316 86.1,256 86.1,136"/></g>
+    <g transform="translate(95 98) scale(0.5)"><polygon points="190,76 293.9,136 293.9,256 190,316 86.1,256 86.1,136"/></g>
+    <g transform="translate(142.5 147) scale(0.25)"><polygon points="190,76 293.9,136 293.9,256 190,316 86.1,256 86.1,136"/></g>
+  </g>
+
+  <!-- axis spokes -->
+  <g stroke="#1d3a66" stroke-width="1">
+    <line x1="190" y1="196" x2="190" y2="76"/>
+    <line x1="190" y1="196" x2="293.9" y2="136"/>
+    <line x1="190" y1="196" x2="293.9" y2="256"/>
+    <line x1="190" y1="196" x2="190" y2="316"/>
+    <line x1="190" y1="196" x2="86.1" y2="256"/>
+    <line x1="190" y1="196" x2="86.1" y2="136"/>
+  </g>
+
+  <!-- value polygon, coords relative to center, scale-in about center via additive -->
+  <g transform="translate(190 196)">
+    <animateTransform attributeName="transform" type="scale" additive="sum" from="0" to="1" dur="1.2s" fill="freeze"/>
+    <polygon points="0,-98.4 91.5,-52.8 79,45.6 0,66 -81,46.8 -76.9,-44.4"
+             fill="#00d4ff" fill-opacity="0.22" stroke="#00d4ff" stroke-width="2"/>
+    <g fill="#7b5cff">
+      <circle cx="0" cy="-98.4" r="3.5"/><circle cx="91.5" cy="-52.8" r="3.5"/>
+      <circle cx="79" cy="45.6" r="3.5"/><circle cx="0" cy="66" r="3.5"/>
+      <circle cx="-81" cy="46.8" r="3.5"/><circle cx="-76.9" cy="-44.4" r="3.5"/>
+    </g>
+  </g>
+
+  <!-- axis labels + values -->
+  <g font-size="12" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.6s" begin="1s" fill="freeze"/>
+    <text x="190" y="66"  text-anchor="middle" fill="#8be9fd">STR <tspan fill="#00d4ff">82</tspan></text>
+    <text x="312" y="132" text-anchor="middle" fill="#8be9fd">INT <tspan fill="#00d4ff">88</tspan></text>
+    <text x="312" y="270" text-anchor="middle" fill="#8be9fd">SEN <tspan fill="#00d4ff">76</tspan></text>
+    <text x="190" y="338" text-anchor="middle" fill="#8be9fd">LCK <tspan fill="#00d4ff">55</tspan></text>
+    <text x="66"  y="270" text-anchor="middle" fill="#8be9fd">AGI <tspan fill="#00d4ff">78</tspan></text>
+    <text x="66"  y="132" text-anchor="middle" fill="#8be9fd">VIT <tspan fill="#00d4ff">74</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="360" viewBox="0 0 360 360" font-family="'Courier New', monospace">
+  <defs>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7b5cff" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#00d4ff" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="g2"><feGaussianBlur stdDeviation="2"/></filter>
+  </defs>
+
+  <rect width="360" height="360" fill="none"/>
+  <circle cx="180" cy="180" r="150" fill="url(#core)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- outer ring rotating clockwise -->
+  <g transform-origin="180 180" stroke="#00d4ff" fill="none">
+    <circle cx="180" cy="180" r="140" stroke-width="1.5" stroke-dasharray="6 10" opacity="0.8"/>
+    <circle cx="180" cy="180" r="128" stroke-width="0.8" opacity="0.4"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 180 180" to="360 180 180" dur="18s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- mid ring rotating counter-clockwise with runes -->
+  <g transform-origin="180 180" fill="#8be9fd" font-size="13" filter="url(#g2)">
+    <text x="180" y="78" text-anchor="middle">⟁</text>
+    <text x="282" y="184" text-anchor="middle">◇</text>
+    <text x="180" y="292" text-anchor="middle">⟁</text>
+    <text x="78" y="184" text-anchor="middle">◇</text>
+    <text x="252" y="110" text-anchor="middle">✦</text>
+    <text x="252" y="262" text-anchor="middle">✦</text>
+    <text x="108" y="262" text-anchor="middle">✦</text>
+    <text x="108" y="110" text-anchor="middle">✦</text>
+    <animateTransform attributeName="transform" type="rotate" from="360 180 180" to="0 180 180" dur="24s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- inner triangle pulsing -->
+  <g transform-origin="180 180" stroke="#7b5cff" stroke-width="1.6" fill="none">
+    <polygon points="180,80 267,230 93,230" opacity="0.85"/>
+    <polygon points="180,280 267,130 93,130" opacity="0.6"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 180 180" to="120 180 180" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- core glyph -->
+  <text x="180" y="190" text-anchor="middle" font-size="34" font-weight="bold" fill="#e6fbff" filter="url(#g2)">
+    王
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+  </text>
+  <text x="180" y="328" text-anchor="middle" font-size="12" letter-spacing="4" fill="#00d4ff">SHADOW MONARCH</text>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="340" viewBox="0 0 860 340" font-family="'Segoe UI','Courier New',monospace">
+  <defs>
+    <linearGradient id="st" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00d4ff"/><stop offset="100%" stop-color="#7b5cff"/>
+    </linearGradient>
+  </defs>
+
+  <text x="30" y="30" fill="#00d4ff" font-size="16" font-weight="bold" letter-spacing="3">⟦ SKILL TREE ⟧</text>
+
+  <!-- connectors draw in -->
+  <g fill="none" stroke="url(#st)" stroke-width="2" stroke-dasharray="200" stroke-dashoffset="200">
+    <animate attributeName="stroke-dashoffset" values="200;0" dur="1.2s" fill="freeze"/>
+    <path d="M430 78 V108"/>
+    <path d="M430 108 H120 V140 M430 108 H326 V140 M430 108 H534 V140 M430 108 H740 V140"/>
+  </g>
+
+  <!-- root -->
+  <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.2s" fill="freeze"/>
+    <rect x="300" y="48" width="260" height="32" rx="6" fill="#7b5cff" opacity="0.18"/>
+    <rect x="300" y="48" width="260" height="32" rx="6" fill="none" stroke="#7b5cff" stroke-width="1.5"/>
+    <text x="430" y="69" text-anchor="middle" fill="#e6fbff" font-size="13" font-weight="bold">FULL-STACK SHADOW MONARCH</text>
+  </g>
+
+  <!-- four branches -->
+  <g font-size="12.5" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.6s" begin="1.2s" fill="freeze"/>
+    <!-- BACKEND -->
+    <rect x="44" y="140" width="160" height="32" rx="6" fill="#00d4ff" opacity="0.14"/>
+    <text x="124" y="161" text-anchor="middle" fill="#00d4ff" font-weight="bold">◆ BACKEND</text>
+    <text x="56" y="194" fill="#8be9fd">● Python</text>
+    <text x="56" y="216" fill="#8be9fd">● Node.js</text>
+    <text x="56" y="238" fill="#8be9fd">● REST APIs</text>
+    <text x="56" y="260" fill="#8be9fd">● MongoDB</text>
+    <!-- FRONTEND -->
+    <rect x="250" y="140" width="160" height="32" rx="6" fill="#00d4ff" opacity="0.14"/>
+    <text x="330" y="161" text-anchor="middle" fill="#00d4ff" font-weight="bold">◆ FRONTEND</text>
+    <text x="262" y="194" fill="#8be9fd">● React</text>
+    <text x="262" y="216" fill="#8be9fd">● JavaScript</text>
+    <text x="262" y="238" fill="#8be9fd">● HTML / CSS</text>
+    <text x="262" y="260" fill="#9fb6d8">◐ UI / UX</text>
+    <!-- DATA/ML -->
+    <rect x="456" y="140" width="160" height="32" rx="6" fill="#7b5cff" opacity="0.16"/>
+    <text x="536" y="161" text-anchor="middle" fill="#7b5cff" font-weight="bold">◆ DATA / ML</text>
+    <text x="468" y="194" fill="#8be9fd">● TensorFlow</text>
+    <text x="468" y="216" fill="#8be9fd">● Keras</text>
+    <text x="468" y="238" fill="#8be9fd">● VGG16 / CNN</text>
+    <text x="468" y="260" fill="#8be9fd">● Dataset Opt</text>
+    <!-- AUTOMATION -->
+    <rect x="662" y="140" width="160" height="32" rx="6" fill="#7b5cff" opacity="0.16"/>
+    <text x="742" y="161" text-anchor="middle" fill="#7b5cff" font-weight="bold">◆ AUTOMATION</text>
+    <text x="674" y="194" fill="#8be9fd">● ServiceNow</text>
+    <text x="674" y="216" fill="#8be9fd">● Workflow Eng</text>
+    <text x="674" y="238" fill="#8be9fd">● Integrations</text>
+    <text x="674" y="260" fill="#9fb6d8">◐ Cloud Deploy</text>
+  </g>
+
+  <!-- legend -->
+  <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.6s" begin="1.6s" fill="freeze"/>
+    <text x="56" y="306" fill="#5f7fb0" font-size="11.5">● Unlocked   ◐ Leveling   ○ Locked</text>
+    <text x="56" y="326" fill="#00d4ff" font-size="11.5">▶ Next unlock: [ Ancient Tongue · 日本語 N4 ]</text>
+  </g>
+</svg>

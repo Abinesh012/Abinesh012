@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="380" viewBox="0 0 860 380" font-family="'Segoe UI','Courier New',monospace">
+  <defs>
+    <linearGradient id="rl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00d4ff"/><stop offset="100%" stop-color="#7b5cff"/>
+    </linearGradient>
+  </defs>
+
+  <text x="30" y="30" fill="#00d4ff" font-size="16" font-weight="bold" letter-spacing="3">⟦ DUNGEON CLEAR LOG ⟧ — raid history</text>
+
+  <!-- spine -->
+  <line x1="56" y1="58" x2="56" y2="356" stroke="url(#rl)" stroke-width="2.5"
+        stroke-dasharray="300" stroke-dashoffset="300">
+    <animate attributeName="stroke-dashoffset" values="300;0" dur="1.4s" fill="freeze"/>
+  </line>
+
+  <!-- node template: circle + rank + text -->
+  <!-- ACTIVE -->
+  <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.4s" fill="freeze"/>
+    <circle cx="56" cy="74" r="9" fill="#3bffb0"/>
+    <circle cx="56" cy="74" r="9" fill="none" stroke="#3bffb0" stroke-width="2">
+      <animate attributeName="r" values="9;16;9" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0;0.9" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="80" y="58" width="86" height="22" rx="4" fill="#3bffb0" opacity="0.18"/>
+    <text x="90" y="74" fill="#3bffb0" font-size="12" font-weight="bold">★ ACTIVE</text>
+    <text x="180" y="68" fill="#e6fbff" font-size="14" font-weight="bold">FirstQA Systems · Tokyo 🗼</text>
+    <text x="180" y="86" fill="#8be9fd" font-size="11.5">Apr 2025 – Present · ServiceNow automation · backend integration · ●live</text>
+  </g>
+
+  <!-- S RANK -->
+  <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.6s" fill="freeze"/>
+    <circle cx="56" cy="138" r="8" fill="#020024" stroke="#00d4ff" stroke-width="2.5"/>
+    <rect x="80" y="124" width="58" height="22" rx="4" fill="#00d4ff" opacity="0.16"/>
+    <text x="90" y="140" fill="#00d4ff" font-size="12" font-weight="bold">S-RANK</text>
+    <text x="152" y="134" fill="#e6fbff" font-size="14" font-weight="bold">FirstQA Systems</text>
+    <text x="152" y="152" fill="#8be9fd" font-size="11.5">Feb 2024 – Mar 2025 · Workflow automation · debugging mastery</text>
+  </g>
+
+  <!-- A RANK -->
+  <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.8s" fill="freeze"/>
+    <circle cx="56" cy="202" r="8" fill="#020024" stroke="#00d4ff" stroke-width="2.5"/>
+    <rect x="80" y="188" width="58" height="22" rx="4" fill="#00d4ff" opacity="0.16"/>
+    <text x="90" y="204" fill="#00d4ff" font-size="12" font-weight="bold">A-RANK</text>
+    <text x="152" y="198" fill="#e6fbff" font-size="14" font-weight="bold">Pinaca Technologies</text>
+    <text x="152" y="216" fill="#8be9fd" font-size="11.5">May 2023 – Jan 2024 · ML models (defense) · dataset optimization</text>
+  </g>
+
+  <!-- B RANK -->
+  <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="1s" fill="freeze"/>
+    <circle cx="56" cy="266" r="8" fill="#020024" stroke="#7b5cff" stroke-width="2.5"/>
+    <rect x="80" y="252" width="58" height="22" rx="4" fill="#7b5cff" opacity="0.16"/>
+    <text x="90" y="268" fill="#7b5cff" font-size="12" font-weight="bold">B-RANK</text>
+    <text x="152" y="262" fill="#e6fbff" font-size="14" font-weight="bold">Quinbay Technologies</text>
+    <text x="152" y="280" fill="#8be9fd" font-size="11.5">Jan 2023 – Feb 2023 · end-to-end workflows · speedrun any%</text>
+  </g>
+
+  <!-- TRAINING -->
+  <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.2s" fill="freeze"/>
+    <circle cx="56" cy="330" r="8" fill="#020024" stroke="#5f7fb0" stroke-width="2.5"/>
+    <rect x="80" y="316" width="92" height="22" rx="4" fill="#5f7fb0" opacity="0.16"/>
+    <text x="90" y="332" fill="#9fb6d8" font-size="12" font-weight="bold">TRAINING</text>
+    <text x="186" y="326" fill="#e6fbff" font-size="14" font-weight="bold">Kongu Engineering College</text>
+    <text x="186" y="344" fill="#8be9fd" font-size="11.5">2018 – 2023 · MSc Software Systems · CGPA 8.1/10 · "The Scholar"</text>
+  </g>
+</svg>
